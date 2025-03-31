@@ -12,8 +12,8 @@ const ModifyMembership = require('../controller/ModifyMembership')
 router.post('/api/register-membership',    Registration)         
 router.get('/api/membership-details', MembershipDetails)  
 router.get('/api/active-members',      AllActiveMembers)       
-router.get('/api/cancel-membership',  CancelMembership)   
-router.get('/api/modify-membership',  ModifyMembership)  
+router.put('/api/cancel-membership',  CancelMembership)   
+router.put('/api/modify-membership',  ModifyMembership)  
 
 
 

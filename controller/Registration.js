@@ -15,6 +15,16 @@ const Registration = (req, res) => {
 
     const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
 
+    const isEmail = data.find(member => member.email === email)
+    if (isEmail) {
+        return res.status(400).json({ message: 'Email already registered' })
+    }
+
+    const isPhone = data.find(member => member.phone === phone)
+    if (isPhone) {
+        return res.status(400).json({ message: 'Phone number already registered' })
+    }
+
     const newMember = {
         id: uuidv4(),
         name,

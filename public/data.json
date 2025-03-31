@@ -4,7 +4,7 @@
     "name": "hareesh",
     "email": "hareesh@example.com",
     "phone": "1234567890",
-    "startDate": "2025-04-01",
+    "startDate": "2025-04-10",
     "status": "inactive"
   },
   {
@@ -14,6 +14,13 @@
     "phone": "1234567890",
     "startDate": "2025-04-01",
     "status": "inactive"
+  },
+  {
+    "id": "b7feb730-21ef-4e63-a047-90588ab3d471",
+    "name": "example",
+    "email": "example@example.com",
+    "phone": "1234567890",
+    "startDate": "2025-04-01",
+    "status": "active"
   }
 ]
-
