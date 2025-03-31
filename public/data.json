@@ -1,0 +1,19 @@
+[
+  {
+    "id": "72ac6986-eb5a-47f4-87a3-3e903501aee7",
+    "name": "hareesh",
+    "email": "hareesh@example.com",
+    "phone": "1234567890",
+    "startDate": "2025-04-01",
+    "status": "inactive"
+  },
+  {
+    "id": "c9f9c499-9bfd-43d8-bdd0-b970723541b6",
+    "name": "rajesh",
+    "email": "rajesh@example.com",
+    "phone": "1234567890",
+    "startDate": "2025-04-01",
+    "status": "inactive"
+  }
+]
+
